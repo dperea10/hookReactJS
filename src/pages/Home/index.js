@@ -47,7 +47,7 @@ return(
                     />
                 <Grid className = {classes.buttonsContainer}>
                     <Button variant = "contained" color = "primary" size= "large" onClick = {handleSearchTextClick}>Buscar</Button>
-                    <Button variant = "contained" className = {classes.searchButton}  color = "secundary" onClick = {handleCleanText}> Limpiar</Button>
+                    <Button variant = "contained" className = {classes.searchButton} onClick = {handleCleanText}> Limpiar</Button>
                 </Grid>
 
         </Card>
